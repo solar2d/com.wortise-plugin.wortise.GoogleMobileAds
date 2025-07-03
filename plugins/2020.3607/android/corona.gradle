@@ -8,16 +8,12 @@ repositories {
     maven {
         url 'https://cboost.jfrog.io/artifactory/chartboost-ads/'
     }
-    maven {
-        url 'https://dl-maven-android.mintegral.com/repository/mbridge_android_sdk_oversea'
-    }
 }
 
 dependencies {
     implementation 'com.google.ads.mediation:chartboost:9.8.3.0'
     implementation 'com.google.ads.mediation:inmobi:10.8.0.0'
     implementation 'com.google.ads.mediation:ironsource:8.7.0.0'
-    implementation 'com.google.ads.mediation:mintegral:16.9.41.0'
     implementation 'com.google.ads.mediation:unity:4.13.1.0'
     implementation 'com.google.ads.mediation:vungle:7.4.3.0'
     implementation 'com.unity3d.ads:unity-ads:4.13.1'

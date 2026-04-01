@@ -1,13 +1,8 @@
 repositories {
     google()
     mavenCentral()
-
-    maven {
-        url 'https://dl-maven-android.mintegral.com/repository/mbridge_android_sdk_oversea'
-    }
 }
 
 dependencies {
     implementation 'com.google.ads.mediation:fyber:8.4.2.2'
-    implementation 'com.google.ads.mediation:mintegral:17.0.91.0'
 }

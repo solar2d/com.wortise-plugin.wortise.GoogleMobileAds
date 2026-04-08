@@ -5,7 +5,6 @@ repositories {
 
 dependencies {
     implementation 'com.google.ads.mediation:fyber:8.4.2.2'
-    implementation 'com.google.ads.mediation:moloco:4.5.0.0'
     implementation 'com.google.ads.mediation:unity:4.16.6.0'
     implementation 'com.unity3d.ads:unity-ads:4.16.6'
 }

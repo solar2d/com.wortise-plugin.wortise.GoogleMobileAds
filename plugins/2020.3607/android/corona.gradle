@@ -1,11 +1,9 @@
 repositories {
     google()
     mavenCentral()
-    maven { url 'https://cboost.jfrog.io/artifactory/chartboost-ads/' }
 }
 
 dependencies {
-    implementation 'com.google.ads.mediation:chartboost:9.11.1.0'
     implementation 'com.google.ads.mediation:fyber:8.4.2.2'
     implementation 'com.google.ads.mediation:inmobi:11.1.1.0'
     implementation 'com.google.ads.mediation:unity:4.16.6.0'
